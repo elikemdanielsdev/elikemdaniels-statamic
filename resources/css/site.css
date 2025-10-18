@@ -3,7 +3,9 @@
 @source "../views";
 @source "../../content";
 @import '@fontsource-variable/inter';
+@import '@fontsource-variable/big-shoulders';
 
+/* Define the styles for body text */
 body {
   font-family: 'Inter Variable', sans-serif;
 }
