@@ -5,9 +5,10 @@
 @import '@fontsource-variable/inter';
 @import '@fontsource-variable/big-shoulders';
 
-/* Define the styles for body text */
-body {
-  font-family: 'Inter Variable', sans-serif;
+/* Custom tailwind 4 theme  */
+@theme {
+  --font-big-shoulders: 'Big Shoulders Variable', system-ui;
+  --font-inter: 'Inter Variable', system-ui;
 }
 
 /* Define a transition duration during page visits */
