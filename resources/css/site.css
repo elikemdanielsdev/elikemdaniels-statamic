@@ -2,6 +2,11 @@
 @plugin "@tailwindcss/typography";
 @source "../views";
 @source "../../content";
+@import '@fontsource-variable/inter';
+
+body {
+  font-family: 'Inter Variable', sans-serif;
+}
 
 /* Define a transition duration during page visits */
 html.is-changing .transition-fade {
